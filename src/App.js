@@ -12,7 +12,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://nmpeupr.azurewebsites.net/shato")
+    fetch("https://nmpeupr.azurewebsites.net/shato")
       .then(res => res.json())
       .then(
         (result) => {
