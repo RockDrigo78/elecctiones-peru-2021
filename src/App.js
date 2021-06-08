@@ -78,7 +78,7 @@ class App extends React.Component {
           </div>  
           
           <div className='info'>
-            <div>Porcentaje analizado: {items.generals.actData.POR_AVANCE}%</div>
+            <div>Porcentaje analizado: {items.generals.generalData.POR_ACTAS_PROCESADAS}%</div>
             <div>Fecha de la data: {items.generals.actData.FECHA}</div>
             <div>Hora de la data: {items.generals.actData.HORA}</div>
           </div>
