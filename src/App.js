@@ -60,7 +60,7 @@ class App extends React.Component {
                 <div className='title'>{items.results[0].AGRUPACION}</div>                
                 <div>{items.results[0].TOTAL_VOTOS}</div> 
             </div>   
-            
+
             <div className='agrupacion'>
                 <div className='title'>{items.results[1].AGRUPACION}</div>                
                 <div>{items.results[1].TOTAL_VOTOS}</div> 
@@ -68,7 +68,7 @@ class App extends React.Component {
           </div>
        
           <div className='gana'>
-              <div>Va ganando:</div>                
+              <div>Va ganando</div>                
               <div>{ganando}</div> 
           </div>  
 
