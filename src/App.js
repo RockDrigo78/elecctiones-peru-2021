@@ -12,7 +12,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch("https://api.resultadossep.eleccionesgenerales2021.pe/results/10/000000")
+    fetch("http://nmpeupr.azurewebsites.net/shato")
       .then(res => res.json())
       .then(
         (result) => {
